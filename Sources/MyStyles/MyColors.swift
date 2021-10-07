@@ -6,26 +6,26 @@ extension MyColor {
 
     // MARK: - Surfaces
 
-    public static let surface: Color = .neutral1
-    public static let background: Color = .neutral2
+    public static let surface: MyColor = .neutral1
+    public static let background: MyColor = .neutral2
 
     // MARK: - Content
 
-    public static let content: Color = .neutral9
-    public static let contentSubtle: Color = .neutral6
-    public static let contentDisabled: Color = .neutral4
+    public static let content: MyColor = .neutral9
+    public static let contentSubtle: MyColor = .neutral6
+    public static let contentDisabled: MyColor = .neutral4
     //public static let contentSuccess: Color = .green2
-    public static let contentCritical: Color = .red2
-    public static let border: Color = .neutral3
-    public static let divider: Color = .neutral3
+    public static let contentCritical: MyColor = .red2
+    public static let border: MyColor = .neutral3
+    public static let divider: MyColor = .neutral3
 
     // MARK: - Actions
 
-    public static let actionPrimary: Color = .red2
-    public static let actionPrimaryBold: Color = .neutral9
-    public static let actionSecondary: Color = .neutral2
-    public static let actionDisabled: Color = .neutral2
-    public static let actionIcon: Color = .neutral2
+    public static let actionPrimary: MyColor = .red2
+    public static let actionPrimaryBold: MyColor = .neutral9
+    public static let actionSecondary: MyColor = .neutral2
+    public static let actionDisabled: MyColor = .neutral2
+    public static let actionIcon: MyColor = .neutral2
 
 }
 
