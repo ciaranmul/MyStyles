@@ -1,6 +1,8 @@
 import SwiftUI
 
-public extension Color {
+public typealias MyColor = Color
+
+public extension MyColor {
 
     // MARK: - Surfaces
 
@@ -27,7 +29,7 @@ public extension Color {
 
 }
 
-extension Color {
+extension MyColor {
     static let red1 = Color(hex: "E8A499")
     static let red2 = Color(hex: "C54531")
     static let red3 = Color(hex: "822E21")
