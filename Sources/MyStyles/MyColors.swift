@@ -2,6 +2,8 @@ import SwiftUI
 
 public typealias MyColor = Color
 
+// MARK: - Functional Color Tokens
+
 extension MyColor {
 
     // MARK: - Surfaces
@@ -14,7 +16,7 @@ extension MyColor {
     public static let content: MyColor = .neutral9
     public static let contentSubtle: MyColor = .neutral6
     public static let contentDisabled: MyColor = .neutral4
-    //public static let contentSuccess: Color = .green2
+    public static let contentSuccess: MyColor = .green2
     public static let contentCritical: MyColor = .red2
     public static let border: MyColor = .neutral3
     public static let divider: MyColor = .neutral3
@@ -27,47 +29,46 @@ extension MyColor {
     public static let actionDisabled: MyColor = .neutral2
     public static let actionIcon: MyColor = .neutral2
 
+    // MARK: - Rating Scale
+
+    public static let rating9: MyColor = .yellow2
+    public static let rating8: MyColor = .orange2
+    public static let rating7: MyColor = .red2
+    public static let rating6: MyColor = .red3
+    public static let rating5: MyColor = .neutral9
 }
 
-extension MyColor {
-    static let red1 = Color(hex: "E8A499")
-    static let red2 = Color(hex: "C54531")
-    static let red3 = Color(hex: "822E21")
+// MARK: - Primitive Color Tokens
 
-    static let neutral1 = Color(hex: "FCFCFC")
-    static let neutral2 = Color(hex: "F6F6F6")
-    static let neutral3 = Color(hex: "E0E0E0")
-    static let neutral4 = Color(hex: "BABABA")
-    static let neutral5 = Color(hex: "888888")
-    static let neutral6 = Color(hex: "595959")
-    static let neutral7 = Color(hex: "363636")
-    static let neutral8 = Color(hex: "222222")
-    static let neutral9 = Color(hex: "191919")
-}
+private extension MyColor {
 
-extension Color {
-    init(hex: String) {
-        let hex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
-        var int: UInt64 = 0
-        Scanner(string: hex).scanHexInt64(&int)
-        let a, r, g, b: UInt64
-        switch hex.count {
-        case 3: // RGB (12-bit)
-            (a, r, g, b) = (255, (int >> 8) * 17, (int >> 4 & 0xF) * 17, (int & 0xF) * 17)
-        case 6: // RGB (24-bit)
-            (a, r, g, b) = (255, int >> 16, int >> 8 & 0xFF, int & 0xFF)
-        case 8: // ARGB (32-bit)
-            (a, r, g, b) = (int >> 24, int >> 16 & 0xFF, int >> 8 & 0xFF, int & 0xFF)
-        default:
-            (a, r, g, b) = (1, 1, 1, 0)
-        }
+    // MARK: - Primary Primitives
 
-        self.init(
-            .sRGB,
-            red: Double(r) / 255,
-            green: Double(g) / 255,
-            blue:  Double(b) / 255,
-            opacity: Double(a) / 255
-        )
-    }
+    static let red1 = Color("red1")
+    static let red2 = Color("red2")
+    static let red3 = Color("red3")
+
+    static let neutral1 = Color("neutral1")
+    static let neutral2 = Color("neutral2")
+    static let neutral3 = Color("neutral3")
+    static let neutral4 = Color("neutral4")
+    static let neutral5 = Color("neutral5")
+    static let neutral6 = Color("neutral6")
+    static let neutral7 = Color("neutral7")
+    static let neutral8 = Color("neutral8")
+    static let neutral9 = Color("neutral9")
+
+    // MARK: - Secondary Primitives
+
+    static let yellow1 = Color("yellow1")
+    static let yellow2 = Color("yellow2")
+    static let yellow3 = Color("yellow3")
+
+    static let green1 = Color("green1")
+    static let green2 = Color("green2")
+    static let green3 = Color("green3")
+
+    static let orange1 = Color("orange1")
+    static let orange2 = Color("orange2")
+    static let orange3 = Color("orange3")
 }
