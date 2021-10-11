@@ -25,4 +25,5 @@ fileprivate func registerFont(bundle: Bundle, fontName: String, fontExtension: S
 
 enum CustomFonts: String, CaseIterable {
     case gtAmericaRegular = "gt-america-regular"
+    case easyNotes = "easy-notes"
 }
