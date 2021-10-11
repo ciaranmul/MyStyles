@@ -40,7 +40,7 @@ extension MyColor {
 
 // MARK: - Primitive Color Tokens
 
-private extension MyColor {
+internal extension MyColor {
 
     // MARK: - Primary Primitives
 

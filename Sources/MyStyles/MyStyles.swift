@@ -1,9 +1,11 @@
 import Foundation
-import UIKit
 import CoreGraphics
 
-public struct MyStyles {
+#if canImport(UIKit)
+import UIKit
+#endif
 
+public struct MyStyles {
     public static func registerFonts() {
         CustomFonts.allCases.forEach { font in
             registerFont(bundle: .module, fontName: font.rawValue, fontExtension: "ttf")
