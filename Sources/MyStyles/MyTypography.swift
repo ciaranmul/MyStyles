@@ -30,6 +30,8 @@ extension MyFont {
     // MARK: - Receipt
 
     public static let receipt24 = MyFont.customerCopy24
+    public static let receipt18 = MyFont.customerCopy18
+    public static let receipt16 = MyFont.customerCopy16
 
     // MARK: - Price
 
@@ -65,6 +67,8 @@ extension MyFont {
     // MARK: - Customer Copy
 
     static let customerCopy24 = Font.custom(.customerCopy, size: 24)
+    static let customerCopy18 = Font.custom(.customerCopy, size: 18)
+    static let customerCopy16 = Font.custom(.customerCopy, size: 16)
 }
 
 private extension Font {
