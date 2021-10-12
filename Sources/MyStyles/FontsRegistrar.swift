@@ -9,6 +9,11 @@ import Foundation
 import CoreGraphics
 import CoreText
 
+private enum CustomFonts: String, CaseIterable {
+    case gtAmericaRegular = "gt-america-regular"
+    case easyNotes = "easy-notes"
+}
+
 protocol CanRegisterFonts {
     static func registerFonts()
 }
