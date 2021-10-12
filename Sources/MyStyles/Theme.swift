@@ -16,7 +16,7 @@ public enum ThemeColor {
     case content, contentSubtle, contentDisabled, contentSuccess, contentCritical
     case border, divider
     
-    case actionPrimarySlice, actionPrimaryBold
+    case actionPrimary, actionPrimaryBold
     case actionSecondary, actionDisabled, actionIcon
     
     case rating9, rating8, rating7, rating6, rating5
@@ -37,7 +37,7 @@ public protocol Themable {
     func divider(for colorScheme: ColorScheme) -> MyColor
     
     // Actions
-    func actionPrimarySlice(for colorScheme: ColorScheme) -> MyColor
+    func actionPrimary(for colorScheme: ColorScheme) -> MyColor
     func actionPrimaryBold(for colorScheme: ColorScheme) -> MyColor
     func actionSecondary(for colorScheme: ColorScheme) -> MyColor
     func actionDisabled(for colorScheme: ColorScheme) -> MyColor
@@ -75,8 +75,8 @@ extension Themable {
             return border(for: colorScheme)
         case .divider:
             return divider(for: colorScheme)
-        case .actionPrimarySlice:
-            return actionPrimarySlice(for: colorScheme)
+        case .actionPrimary:
+            return actionPrimary(for: colorScheme)
         case .actionPrimaryBold:
             return actionPrimaryBold(for: colorScheme)
         case .actionSecondary:
@@ -144,7 +144,7 @@ extension LegacyTheme: Themable {
         colorScheme.isLightMode ? .neutral3 : .neutral7
     }
     
-    func actionPrimarySlice(for colorScheme: ColorScheme) -> MyColor {
+    func actionPrimary(for colorScheme: ColorScheme) -> MyColor {
         .red2
     }
     
@@ -224,7 +224,7 @@ extension CurrentTheme: Themable {
         colorScheme.isLightMode ? .neutral3 : .neutral7
     }
     
-    func actionPrimarySlice(for colorScheme: ColorScheme) -> MyColor {
+    func actionPrimary(for colorScheme: ColorScheme) -> MyColor {
         .red2
     }
     
