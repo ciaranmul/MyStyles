@@ -1,8 +1,10 @@
 import SwiftUI
 
 private enum CustomFontNames: String {
-    case easyNotes = "EasyNotes"
     case gtAmericaRegular = "GTAmerica-Regular"
+    case jetBrainsMono = "JetBrainsMono-Medium"
+    case easyNotes = "EasyNotes"
+    case customerCopy = "Customer Copy"
 }
 
 public typealias MyFont = Font
@@ -24,6 +26,15 @@ extension MyFont {
     public static let handwriting44 = MyFont.easyNotes44
     public static let handwriting32 = MyFont.easyNotes32
     public static let handwriting24 = MyFont.easyNotes24
+
+    // MARK: - Receipt
+
+    public static let receipt24 = MyFont.customerCopy24
+
+    // MARK: - Price
+
+    static let price12 = MyFont.jetBrainsMono12
+    static let price12Strikethrough = MyFont.jetBrainsMono12
 }
 
 // MARK: - Primitive Type Styles
@@ -40,12 +51,20 @@ extension MyFont {
     static let gtAmericaRegular13 = Font.custom(.gtAmericaRegular, size: 13)
     static let gtAmericaRegular12 = Font.custom(.gtAmericaRegular, size: 12)
 
+    // MARK: - JetBrains Mono
+
+    static let jetBrainsMono12 = Font.custom(.jetBrainsMono, size: 12)
+
     // MARK: - Easy Notes
 
     static let easyNotes64 = Font.custom(.easyNotes, size: 64)
     static let easyNotes44 = Font.custom(.easyNotes, size: 44)
     static let easyNotes32 = Font.custom(.easyNotes, size: 32)
     static let easyNotes24 = Font.custom(.easyNotes, size: 24)
+
+    // MARK: - Customer Copy
+
+    static let customerCopy24 = Font.custom(.customerCopy, size: 24)
 }
 
 private extension Font {
