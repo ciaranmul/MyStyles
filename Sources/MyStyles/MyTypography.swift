@@ -4,7 +4,7 @@ private enum CustomFontNames: String {
     case gtAmericaRegular = "GTAmerica-Regular"
     case jetBrainsMono = "JetBrainsMono-Medium"
     case easyNotes = "EasyNotes"
-    case customerCopy = "Customer Copy"
+    case customerCopy = "CustomerCopy"
 }
 
 public typealias MyFont = Font
@@ -33,8 +33,8 @@ extension MyFont {
 
     // MARK: - Price
 
-    static let price12 = MyFont.jetBrainsMono12
-    static let price12Strikethrough = MyFont.jetBrainsMono12
+    public static let price12 = MyFont.jetBrainsMono12
+    public static let price12Strikethrough = MyFont.jetBrainsMono12
 }
 
 // MARK: - Primitive Type Styles
