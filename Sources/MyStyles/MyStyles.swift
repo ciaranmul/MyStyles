@@ -31,7 +31,8 @@ public struct MyStyles {
         }
         var error: Unmanaged<CFError>?
         if !CTFontManagerRegisterGraphicsFont(font, &error) {
-            print(error!.takeUnretainedValue())
+            guard let error = error else { print("Unknown error occured when registering font: \(font.fullName.debugDescription)"); return }
+            print(error.takeUnretainedValue())
         }
     }
 }
