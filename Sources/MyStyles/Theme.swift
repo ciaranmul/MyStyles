@@ -11,6 +11,17 @@ public extension EnvironmentValues {
     }
 }
 
+public enum ThemeColor {
+    case surface, background
+    case content, contentSubtle, contentDisabled, contentSuccess, contentCritical
+    case border, divider
+    
+    case actionPrimarySlice, actionPrimaryBold
+    case actionSecondary, actionDisabled, actionIcon
+    
+    case rating9, rating8, rating7, rating6, rating5
+}
+
 public protocol Themable {
     // Surfaces
     func surface(for colorScheme: ColorScheme) -> MyColor
@@ -24,6 +35,68 @@ public protocol Themable {
     func contentCritical(for colorScheme: ColorScheme) -> MyColor
     func border(for colorScheme: ColorScheme) -> MyColor
     func divider(for colorScheme: ColorScheme) -> MyColor
+    
+    // Actions
+    func actionPrimarySlice(for colorScheme: ColorScheme) -> MyColor
+    func actionPrimaryBold(for colorScheme: ColorScheme) -> MyColor
+    func actionSecondary(for colorScheme: ColorScheme) -> MyColor
+    func actionDisabled(for colorScheme: ColorScheme) -> MyColor
+    func actionIcon(for colorScheme: ColorScheme) -> MyColor
+    
+    // Ratings
+    func rating9(for colorScheme: ColorScheme) -> MyColor
+    func rating8(for colorScheme: ColorScheme) -> MyColor
+    func rating7(for colorScheme: ColorScheme) -> MyColor
+    func rating6(for colorScheme: ColorScheme) -> MyColor
+    func rating5(for colorScheme: ColorScheme) -> MyColor
+    
+    // General
+    func color(for themeColor: ThemeColor, colorScheme: ColorScheme) -> MyColor
+}
+
+extension Themable {
+    func color(for themeColor: ThemeColor, colorScheme: ColorScheme) -> MyColor {
+        switch themeColor {
+        case .surface:
+            return surface(for: colorScheme)
+        case .background:
+            return background(for: colorScheme)
+        case .content:
+            return content(for: colorScheme)
+        case .contentSubtle:
+            return contentSubtle(for: colorScheme)
+        case .contentDisabled:
+            return contentDisabled(for: colorScheme)
+        case .contentSuccess:
+            return contentSuccess(for: colorScheme)
+        case .contentCritical:
+            return contentCritical(for: colorScheme)
+        case .border:
+            return border(for: colorScheme)
+        case .divider:
+            return divider(for: colorScheme)
+        case .actionPrimarySlice:
+            return actionPrimarySlice(for: colorScheme)
+        case .actionPrimaryBold:
+            return actionPrimaryBold(for: colorScheme)
+        case .actionSecondary:
+            return actionSecondary(for: colorScheme)
+        case .actionDisabled:
+            return actionDisabled(for: colorScheme)
+        case .actionIcon:
+            return actionIcon(for: colorScheme)
+        case .rating9:
+            return rating9(for: colorScheme)
+        case .rating8:
+            return rating8(for: colorScheme)
+        case .rating7:
+            return rating7(for: colorScheme)
+        case .rating6:
+            return rating6(for: colorScheme)
+        case .rating5:
+            return rating5(for: colorScheme)
+        }
+    }
 }
 
 public struct Theme { }
@@ -56,11 +129,11 @@ extension LegacyTheme: Themable {
     }
     
     func contentSuccess(for colorScheme: ColorScheme) -> MyColor {
-        colorScheme.isLightMode ? .green2 : .green2
+        .green2
     }
     
     func contentCritical(for colorScheme: ColorScheme) -> MyColor {
-        colorScheme.isLightMode ? .red2 : .red2
+        .red2
     }
     
     func border(for colorScheme: ColorScheme) -> MyColor {
@@ -69,6 +142,46 @@ extension LegacyTheme: Themable {
     
     func divider(for colorScheme: ColorScheme) -> MyColor {
         colorScheme.isLightMode ? .neutral3 : .neutral7
+    }
+    
+    func actionPrimarySlice(for colorScheme: ColorScheme) -> MyColor {
+        .red2
+    }
+    
+    func actionPrimaryBold(for colorScheme: ColorScheme) -> MyColor {
+        colorScheme.isLightMode ? .neutral9 : .neutral1
+    }
+    
+    func actionSecondary(for colorScheme: ColorScheme) -> MyColor {
+        colorScheme.isLightMode ? .neutral2 : .neutral7
+    }
+    
+    func actionDisabled(for colorScheme: ColorScheme) -> MyColor {
+        colorScheme.isLightMode ? .neutral2 : .neutral7
+    }
+    
+    func actionIcon(for colorScheme: ColorScheme) -> MyColor {
+        .neutral2
+    }
+    
+    func rating9(for colorScheme: ColorScheme) -> MyColor {
+        .yellow2
+    }
+    
+    func rating8(for colorScheme: ColorScheme) -> MyColor {
+        .orange2
+    }
+    
+    func rating7(for colorScheme: ColorScheme) -> MyColor {
+        .red2
+    }
+    
+    func rating6(for colorScheme: ColorScheme) -> MyColor {
+        .red3
+    }
+    
+    func rating5(for colorScheme: ColorScheme) -> MyColor {
+        .neutral9
     }
 }
 
@@ -109,6 +222,46 @@ extension CurrentTheme: Themable {
     
     func divider(for colorScheme: ColorScheme) -> MyColor {
         colorScheme.isLightMode ? .neutral3 : .neutral7
+    }
+    
+    func actionPrimarySlice(for colorScheme: ColorScheme) -> MyColor {
+        .red2
+    }
+    
+    func actionPrimaryBold(for colorScheme: ColorScheme) -> MyColor {
+        colorScheme.isLightMode ? .neutral9 : .neutral1
+    }
+    
+    func actionSecondary(for colorScheme: ColorScheme) -> MyColor {
+        colorScheme.isLightMode ? .neutral2 : .neutral7
+    }
+    
+    func actionDisabled(for colorScheme: ColorScheme) -> MyColor {
+        colorScheme.isLightMode ? .neutral2 : .neutral7
+    }
+    
+    func actionIcon(for colorScheme: ColorScheme) -> MyColor {
+        .neutral2
+    }
+    
+    func rating9(for colorScheme: ColorScheme) -> MyColor {
+        .yellow2
+    }
+    
+    func rating8(for colorScheme: ColorScheme) -> MyColor {
+        .orange2
+    }
+    
+    func rating7(for colorScheme: ColorScheme) -> MyColor {
+        .red2
+    }
+    
+    func rating6(for colorScheme: ColorScheme) -> MyColor {
+        .red3
+    }
+    
+    func rating5(for colorScheme: ColorScheme) -> MyColor {
+        .neutral9
     }
 }
 
