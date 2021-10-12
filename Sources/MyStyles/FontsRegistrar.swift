@@ -1,10 +1,3 @@
-//
-//  File.swift
-//  
-//
-//  Created by Ciarán Mulholland on 12/10/2021.
-//
-
 import Foundation
 import CoreGraphics
 import CoreText
