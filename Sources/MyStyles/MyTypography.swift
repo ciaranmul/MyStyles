@@ -118,6 +118,7 @@ extension MyFont {
 
 private extension Font {
     static func custom(_ font: CustomFont, size: CGFloat) -> Font {
+        // Registering the font on first use
         _ = font.registered
         return Font.custom(font.rawValue, size: size)
     }
