@@ -2,46 +2,10 @@ import SwiftUI
 
 public typealias MyColor = Color
 
-// MARK: - Functional Color Tokens
-
-extension MyColor {
-
-    // MARK: - Surfaces
-
-    public static let surface: MyColor = .neutral1
-    public static let background: MyColor = .neutral2
-
-    // MARK: - Content
-
-    public static let content: MyColor = .neutral9
-    public static let contentSubtle: MyColor = .neutral6
-    public static let contentDisabled: MyColor = .neutral4
-    public static let contentSuccess: MyColor = .green2
-    public static let contentCritical: MyColor = .red2
-    public static let border: MyColor = .neutral3
-    public static let divider: MyColor = .neutral3
-
-    // MARK: - Actions
-
-    public static let actionPrimary: MyColor = .red2
-    public static let actionPrimaryBold: MyColor = .neutral9
-    public static let actionSecondary: MyColor = .neutral2
-    public static let actionDisabled: MyColor = .neutral2
-    public static let actionIcon: MyColor = .neutral2
-
-    // MARK: - Rating Scale
-
-    public static let rating9: MyColor = .yellow2
-    public static let rating8: MyColor = .orange2
-    public static let rating7: MyColor = .red2
-    public static let rating6: MyColor = .red3
-    public static let rating5: MyColor = .neutral9
-}
-
 // MARK: - Primitive Color Tokens
 
-private extension MyColor {
-
+internal extension MyColor {
+    
     // MARK: - Primary Primitives
 
     static let red1 = Color("red1", bundle: .module)

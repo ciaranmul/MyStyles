@@ -1,6 +1,9 @@
 import Foundation
-import UIKit
 import CoreGraphics
+
+#if canImport(UIKit)
+import UIKit
+#endif
 
 public struct MyStyles {
 
