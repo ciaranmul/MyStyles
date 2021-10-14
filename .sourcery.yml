@@ -1,0 +1,7 @@
+sources:
+  - MyStyles/Sources
+  - TestReferenceApp/TestReferenceApp
+templates:
+  - TestReferenceApp/TestReferenceApp/SourceryTemplates
+output:
+  TestReferenceApp/TestReferenceApp/SourceryOutput

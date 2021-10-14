@@ -1,0 +1,14 @@
+version: "Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)"
+options: "fcc8c77a83aa25959c46abf22b6105ed89fa3b9fef8b0fde8e1468c02e57e378"
+build_start_time: [1634136529, 900410175]
+build_end_time: [1634136546, 295686960]
+inputs:
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/Commander/Sources/Commander/ArgumentConvertible.swift": [1634136524, 847381353]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/Commander/Sources/Commander/ArgumentDescription.swift": [1634136524, 847743034]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/Commander/Sources/Commander/ArgumentParser.swift": [1634136524, 847998857]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/Commander/Sources/Commander/Command.swift": [1634136524, 848165035]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/Commander/Sources/Commander/CommandRunner.swift": [1634136524, 848453044]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/Commander/Sources/Commander/CommandType.swift": [1634136524, 848670244]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/Commander/Sources/Commander/Commands.swift": [1634136524, 849155902]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/Commander/Sources/Commander/Error.swift": [1634136524, 849372386]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/Commander/Sources/Commander/Group.swift": [1634136524, 849601745]

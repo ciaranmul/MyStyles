@@ -1,0 +1,15 @@
+version: "Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)"
+options: "784ab5d13be10a64c7398bcbc7816e0850d7cc440bf585d01206cd3233eae0c6"
+build_start_time: [1634136730, 271235942]
+build_end_time: [1634136737, 213631153]
+inputs:
+  "/Users/aidanmalone/repos/Sourcery/Sourcery/Configuration.swift": [1634136432, 755285024]
+  "/Users/aidanmalone/repos/Sourcery/Sourcery/Generating/Templates/JavaScript/JavaScriptTemplate.swift": [1634136432, 755717754]
+  "/Users/aidanmalone/repos/Sourcery/Sourcery/Generating/Templates/Stencil/StencilTemplate.swift": [1634136432, 756022930]
+  "/Users/aidanmalone/repos/Sourcery/Sourcery/Generating/Templates/Swift/SwiftTemplate.swift": [1634136432, 756422042]
+  "/Users/aidanmalone/repos/Sourcery/Sourcery/Sourcery.swift": [1634136432, 756716251]
+  "/Users/aidanmalone/repos/Sourcery/Sourcery/Utils/ByteRangeConversion.swift": [1634136432, 758702754]
+  "/Users/aidanmalone/repos/Sourcery/Sourcery/Utils/BytesRange + Editing.swift": [1634136432, 758846759]
+  "/Users/aidanmalone/repos/Sourcery/Sourcery/Utils/FolderWatcher.swift": [1634136432, 759054660]
+  "/Users/aidanmalone/repos/Sourcery/Sourcery/Utils/NSRange + Editing.swift": [1634136432, 759223937]
+  "/Users/aidanmalone/repos/Sourcery/Sourcery/Utils/Xcode+Extensions.swift": [1634136432, 759657859]

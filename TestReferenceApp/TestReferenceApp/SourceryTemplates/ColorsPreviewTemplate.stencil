@@ -1,0 +1,13 @@
+
+import MyStyles
+import SwiftUI
+
+struct ColorsView: View {
+    var body: some View {
+        VStack {
+            {% for type in types.implementing.ShowcaseableColor %}
+            {{type.name}}.showCaseView
+            {% endfor %}
+        }
+    }
+}

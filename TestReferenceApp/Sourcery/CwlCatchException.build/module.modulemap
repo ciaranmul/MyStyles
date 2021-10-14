@@ -1,0 +1,4 @@
+module CwlCatchException {
+    header "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/CwlCatchException.build/CwlCatchException-Swift.h"
+    requires objc
+}

@@ -1,0 +1,17 @@
+{
+  "": {
+    "dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryJS.build/SourceryJS.d",
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryJS.build/SourceryJS.o",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryJS.build/master.swiftdeps"
+  },
+  "/Users/aidanmalone/repos/Sourcery/SourceryJS/Sources/EJSTemplate.swift": {
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryJS.build/Sources/EJSTemplate.swift.o",
+    "swiftmodule": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryJS.build/Sources/EJSTemplate~partial.swiftmodule",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryJS.build/Sources/EJSTemplate.swiftdeps"
+  },
+  "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryJS.build/DerivedSources/resource_bundle_accessor.swift": {
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryJS.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryJS.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryJS.build/resource_bundle_accessor.swiftdeps"
+  }
+}

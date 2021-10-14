@@ -1,0 +1,22 @@
+{
+  "": {
+    "dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryStencil.build/SourceryStencil.d",
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryStencil.build/SourceryStencil.o",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryStencil.build/master.swiftdeps"
+  },
+  "/Users/aidanmalone/repos/Sourcery/SourceryStencil/Sources/NewLineNode.swift": {
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryStencil.build/Sources/NewLineNode.swift.o",
+    "swiftmodule": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryStencil.build/Sources/NewLineNode~partial.swiftmodule",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryStencil.build/Sources/NewLineNode.swiftdeps"
+  },
+  "/Users/aidanmalone/repos/Sourcery/SourceryStencil/Sources/StencilTemplate.swift": {
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryStencil.build/Sources/StencilTemplate.swift.o",
+    "swiftmodule": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryStencil.build/Sources/StencilTemplate~partial.swiftmodule",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryStencil.build/Sources/StencilTemplate.swiftdeps"
+  },
+  "/Users/aidanmalone/repos/Sourcery/SourceryStencil/Sources/TypedNode.swift": {
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryStencil.build/Sources/TypedNode.swift.o",
+    "swiftmodule": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryStencil.build/Sources/TypedNode~partial.swiftmodule",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryStencil.build/Sources/TypedNode.swiftdeps"
+  }
+}

@@ -1,0 +1,20 @@
+version: "Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)"
+options: "3999a4b223b773e1c361501fd6b3e098afda3f81c1e1bd6ecfca2224b282a622"
+build_start_time: [1634136532, 661942005]
+build_end_time: [1634136550, 614053010]
+inputs:
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/Yams/Sources/Yams/Constructor.swift": [1634136523, 824285507]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/Yams/Sources/Yams/Decoder.swift": [1634136523, 824623584]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/Yams/Sources/Yams/Emitter.swift": [1634136523, 825010776]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/Yams/Sources/Yams/Encoder.swift": [1634136523, 825603008]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/Yams/Sources/Yams/Mark.swift": [1634136523, 825841903]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/Yams/Sources/Yams/Node.Mapping.swift": [1634136523, 826069116]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/Yams/Sources/Yams/Node.Scalar.swift": [1634136523, 826258659]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/Yams/Sources/Yams/Node.Sequence.swift": [1634136523, 826490402]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/Yams/Sources/Yams/Node.swift": [1634136523, 826848983]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/Yams/Sources/Yams/Parser.swift": [1634136523, 827166557]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/Yams/Sources/Yams/Representer.swift": [1634136523, 827439546]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/Yams/Sources/Yams/Resolver.swift": [1634136523, 827819824]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/Yams/Sources/Yams/String+Yams.swift": [1634136523, 828089237]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/Yams/Sources/Yams/Tag.swift": [1634136523, 828369617]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/Yams/Sources/Yams/YamlError.swift": [1634136523, 828619003]

@@ -1,0 +1,4 @@
+module CodableContext {
+    header "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/CodableContext.build/CodableContext-Swift.h"
+    requires objc
+}

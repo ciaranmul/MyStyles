@@ -1,0 +1,4 @@
+module ShellOut {
+    header "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/ShellOut.build/ShellOut-Swift.h"
+    requires objc
+}

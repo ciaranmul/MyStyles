@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)"
+options: "8c62ef8d1d4ef585d123af4ddeaacece90e2a765b9754c3f704783ef23e5885b"
+build_start_time: [1634136737, 275586128]
+build_end_time: [1634136739, 699311971]
+inputs:
+  "/Users/aidanmalone/repos/Sourcery/SourceryExecutable/main.swift": [1634136432, 760171890]

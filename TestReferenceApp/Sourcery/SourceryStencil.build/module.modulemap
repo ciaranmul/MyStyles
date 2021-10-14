@@ -1,0 +1,4 @@
+module SourceryStencil {
+    header "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryStencil.build/SourceryStencil-Swift.h"
+    requires objc
+}

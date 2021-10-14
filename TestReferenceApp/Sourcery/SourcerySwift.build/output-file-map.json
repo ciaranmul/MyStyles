@@ -1,0 +1,17 @@
+{
+  "": {
+    "dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourcerySwift.build/SourcerySwift.d",
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourcerySwift.build/SourcerySwift.o",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourcerySwift.build/master.swiftdeps"
+  },
+  "/Users/aidanmalone/repos/Sourcery/SourcerySwift/Sources/SourceryRuntime.content.generated.swift": {
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourcerySwift.build/Sources/SourceryRuntime.content.generated.swift.o",
+    "swiftmodule": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourcerySwift.build/Sources/SourceryRuntime.content.generated~partial.swiftmodule",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourcerySwift.build/Sources/SourceryRuntime.content.generated.swiftdeps"
+  },
+  "/Users/aidanmalone/repos/Sourcery/SourcerySwift/Sources/SwiftTemplate.swift": {
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourcerySwift.build/Sources/SwiftTemplate.swift.o",
+    "swiftmodule": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourcerySwift.build/Sources/SwiftTemplate~partial.swiftmodule",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourcerySwift.build/Sources/SwiftTemplate.swiftdeps"
+  }
+}

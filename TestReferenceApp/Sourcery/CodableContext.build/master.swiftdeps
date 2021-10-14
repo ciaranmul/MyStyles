@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)"
+options: "fcc8c77a83aa25959c46abf22b6105ed89fa3b9fef8b0fde8e1468c02e57e378"
+build_start_time: [1634136529, 899373054]
+build_end_time: [1634136536, 578004837]
+inputs:
+  "/Users/aidanmalone/repos/Sourcery/Templates/Tests/Context/AutoCodable.swift": [1634136432, 839361667]
+  "/Users/aidanmalone/repos/Sourcery/Templates/Tests/Generated/AutoCodable.generated.swift": [1634136432, 842898845]

@@ -1,0 +1,4 @@
+module CwlPosixPreconditionTesting {
+    header "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/CwlPosixPreconditionTesting.build/CwlPosixPreconditionTesting-Swift.h"
+    requires objc
+}

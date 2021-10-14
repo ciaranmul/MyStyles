@@ -1,0 +1,57 @@
+{
+  "": {
+    "dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/SourceryLib.d",
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/SourceryLib.o",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/master.swiftdeps"
+  },
+  "/Users/aidanmalone/repos/Sourcery/Sourcery/Configuration.swift": {
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Configuration.swift.o",
+    "swiftmodule": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Configuration~partial.swiftmodule",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Configuration.swiftdeps"
+  },
+  "/Users/aidanmalone/repos/Sourcery/Sourcery/Generating/Templates/JavaScript/JavaScriptTemplate.swift": {
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Generating/Templates/JavaScript/JavaScriptTemplate.swift.o",
+    "swiftmodule": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Generating/Templates/JavaScript/JavaScriptTemplate~partial.swiftmodule",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Generating/Templates/JavaScript/JavaScriptTemplate.swiftdeps"
+  },
+  "/Users/aidanmalone/repos/Sourcery/Sourcery/Generating/Templates/Stencil/StencilTemplate.swift": {
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Generating/Templates/Stencil/StencilTemplate.swift.o",
+    "swiftmodule": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Generating/Templates/Stencil/StencilTemplate~partial.swiftmodule",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Generating/Templates/Stencil/StencilTemplate.swiftdeps"
+  },
+  "/Users/aidanmalone/repos/Sourcery/Sourcery/Generating/Templates/Swift/SwiftTemplate.swift": {
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Generating/Templates/Swift/SwiftTemplate.swift.o",
+    "swiftmodule": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Generating/Templates/Swift/SwiftTemplate~partial.swiftmodule",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Generating/Templates/Swift/SwiftTemplate.swiftdeps"
+  },
+  "/Users/aidanmalone/repos/Sourcery/Sourcery/Sourcery.swift": {
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Sourcery.swift.o",
+    "swiftmodule": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Sourcery~partial.swiftmodule",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Sourcery.swiftdeps"
+  },
+  "/Users/aidanmalone/repos/Sourcery/Sourcery/Utils/ByteRangeConversion.swift": {
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/ByteRangeConversion.swift.o",
+    "swiftmodule": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/ByteRangeConversion~partial.swiftmodule",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/ByteRangeConversion.swiftdeps"
+  },
+  "/Users/aidanmalone/repos/Sourcery/Sourcery/Utils/BytesRange + Editing.swift": {
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/BytesRange + Editing.swift.o",
+    "swiftmodule": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/BytesRange + Editing~partial.swiftmodule",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/BytesRange + Editing.swiftdeps"
+  },
+  "/Users/aidanmalone/repos/Sourcery/Sourcery/Utils/FolderWatcher.swift": {
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/FolderWatcher.swift.o",
+    "swiftmodule": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/FolderWatcher~partial.swiftmodule",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/FolderWatcher.swiftdeps"
+  },
+  "/Users/aidanmalone/repos/Sourcery/Sourcery/Utils/NSRange + Editing.swift": {
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/NSRange + Editing.swift.o",
+    "swiftmodule": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/NSRange + Editing~partial.swiftmodule",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/NSRange + Editing.swiftdeps"
+  },
+  "/Users/aidanmalone/repos/Sourcery/Sourcery/Utils/Xcode+Extensions.swift": {
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/Xcode+Extensions.swift.o",
+    "swiftmodule": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/Xcode+Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryLib.build/Utils/Xcode+Extensions.swiftdeps"
+  }
+}

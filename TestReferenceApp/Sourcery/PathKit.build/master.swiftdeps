@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)"
+options: "fcc8c77a83aa25959c46abf22b6105ed89fa3b9fef8b0fde8e1468c02e57e378"
+build_start_time: [1634136529, 899221897]
+build_end_time: [1634136537, 466680049]
+inputs:
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/PathKit/Sources/PathKit.swift": [1634136520, 209868907]
