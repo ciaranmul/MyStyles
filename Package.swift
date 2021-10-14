@@ -22,9 +22,11 @@ let package = Package(
         .target(
             name: "MyStyles",
             dependencies: [],
+            path: "MyStylesPackage/Sources",
             resources: [.process("Resources")]),
         .testTarget(
             name: "MyStylesTests",
-            dependencies: ["MyStyles"]),
+            dependencies: ["MyStyles"],
+            path: "MyStylesPackage/Tests"),
     ]
 )

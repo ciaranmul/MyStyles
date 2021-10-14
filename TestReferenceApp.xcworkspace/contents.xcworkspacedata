@@ -4,7 +4,4 @@
    <FileRef
       location = "group:TestReferenceApp/TestReferenceApp.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:MyStyles">
-   </FileRef>
 </Workspace>
