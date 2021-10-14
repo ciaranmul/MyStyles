@@ -7,7 +7,6 @@ import SwiftUI
 struct ColorsView: View {
     var body: some View {
         VStack {
-            Color.showCaseView
         }
     }
 }
