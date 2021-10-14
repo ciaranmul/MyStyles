@@ -6,6 +6,14 @@ public enum ThemeType: String {
     
     public static var `default`: ThemeType = .legacy
     
+    public var title: String {
+        switch self {
+        case .legacy:       return "Legacy"
+        case .metalabsv1:   return "MetaLabs"
+        case .silly:        return "Silly"
+        }
+    }
+    
     public var description: String {
         switch self {
         case .legacy:       return "Our Legacy theme"
