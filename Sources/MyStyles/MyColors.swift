@@ -24,8 +24,7 @@ protocol ColorProvider {
     static var rating5: MyColor { get }
 }
 
-// MARK: - Functional Color Tokens
-
+// MARK: - These map to primitives for one theme
 enum StandardColors: ColorProvider {
 
     // MARK: - Surfaces
@@ -59,6 +58,8 @@ enum StandardColors: ColorProvider {
     static let rating6: MyColor = .red3
     static let rating5: MyColor = .neutral9
 }
+
+//MARK: - These map to primatives for a different theme
 
 enum SomeOtherColors: ColorProvider {
 

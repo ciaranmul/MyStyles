@@ -1,3 +1,4 @@
+// These represent the functional tokens
 public extension MyColor {
 
     private static var colorProvider: ColorProvider.Type { ThemingEngine.colorProvider }
