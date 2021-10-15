@@ -10,8 +10,8 @@ import SwiftUI
 struct Model {
     init() {
         // comment out one or both to either change themes, or test defaulting
-        ThemingEngine.registerTheme(theme: .different)
-//        ThemingEngine.registerTheme(theme: .standard)
+//        ThemingEngine.registerTheme(theme: .different)
+        ThemingEngine.registerTheme(theme: .standard)
     }
 }
 
@@ -27,5 +27,6 @@ struct SwiftUIView: View {
 struct SwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
         SwiftUIView().previewLayout(.fixed(width: 375, height: 77))
+        SwiftUIView().preferredColorScheme(.dark).previewLayout(.fixed(width: 375, height: 77))
     }
 }
