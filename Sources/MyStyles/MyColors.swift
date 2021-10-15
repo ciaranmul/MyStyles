@@ -2,40 +2,96 @@ import SwiftUI
 
 public typealias MyColor = Color
 
+protocol ColorProvider {
+    static var surface: MyColor { get }
+    static var background: MyColor { get }
+    static var content: MyColor  { get }
+    static var contentSubtle: MyColor { get }
+    static var contentDisabled: MyColor { get }
+    static var contentSuccess: MyColor { get }
+    static var contentCritical: MyColor { get }
+    static var border: MyColor { get }
+    static var divider: MyColor { get }
+    static var actionPrimary: MyColor  { get }
+    static var actionPrimaryBold: MyColor { get }
+    static var actionSecondary: MyColor { get }
+    static var actionDisabled: MyColor  { get }
+    static var actionIcon: MyColor { get }
+    static var rating9: MyColor  { get }
+    static var rating8: MyColor { get }
+    static var rating7: MyColor { get }
+    static var rating6: MyColor { get }
+    static var rating5: MyColor { get }
+}
+
 // MARK: - Functional Color Tokens
 
-extension MyColor {
+enum StandardColors: ColorProvider {
 
     // MARK: - Surfaces
 
-    public static let surface: MyColor = .neutral1
-    public static let background: MyColor = .neutral2
+    static let surface: MyColor = .neutral1
+    static let background: MyColor = .neutral2
 
     // MARK: - Content
 
-    public static let content: MyColor = .neutral9
-    public static let contentSubtle: MyColor = .neutral6
-    public static let contentDisabled: MyColor = .neutral4
-    public static let contentSuccess: MyColor = .green2
-    public static let contentCritical: MyColor = .red2
-    public static let border: MyColor = .neutral3
-    public static let divider: MyColor = .neutral3
+    static let content: MyColor = .neutral9
+    static let contentSubtle: MyColor = .neutral6
+    static let contentDisabled: MyColor = .neutral4
+    static let contentSuccess: MyColor = .green2
+    static let contentCritical: MyColor = .red2
+    static let border: MyColor = .neutral3
+    static let divider: MyColor = .neutral3
 
     // MARK: - Actions
 
-    public static let actionPrimary: MyColor = .red2
-    public static let actionPrimaryBold: MyColor = .neutral9
-    public static let actionSecondary: MyColor = .neutral2
-    public static let actionDisabled: MyColor = .neutral2
-    public static let actionIcon: MyColor = .neutral2
+    static let actionPrimary: MyColor = .red2
+    static let actionPrimaryBold: MyColor = .neutral9
+    static let actionSecondary: MyColor = .neutral2
+    static let actionDisabled: MyColor = .neutral2
+    static let actionIcon: MyColor = .neutral2
 
     // MARK: - Rating Scale
 
-    public static let rating9: MyColor = .yellow2
-    public static let rating8: MyColor = .orange2
-    public static let rating7: MyColor = .red2
-    public static let rating6: MyColor = .red3
-    public static let rating5: MyColor = .neutral9
+    static let rating9: MyColor = .yellow2
+    static let rating8: MyColor = .orange2
+    static let rating7: MyColor = .red2
+    static let rating6: MyColor = .red3
+    static let rating5: MyColor = .neutral9
+}
+
+enum SomeOtherColors: ColorProvider {
+
+    // MARK: - Surfaces
+
+    static let surface: MyColor = .blue
+    static let background: MyColor = .red
+
+    // MARK: - Content
+
+    static let content: MyColor = .green
+    static let contentSubtle: MyColor = .gray
+    static let contentDisabled: MyColor = .white
+    static let contentSuccess: MyColor = .black
+    static let contentCritical: MyColor = .orange
+    static let border: MyColor = .purple
+    static let divider: MyColor = .blue
+
+    // MARK: - Actions
+
+    static let actionPrimary: MyColor = .pink
+    static let actionPrimaryBold: MyColor = .red
+    static let actionSecondary: MyColor = .yellow
+    static let actionDisabled: MyColor = .green
+    static let actionIcon: MyColor = .black
+
+    // MARK: - Rating Scale
+
+    static let rating9: MyColor = .clear
+    static let rating8: MyColor = .orange2
+    static let rating7: MyColor = .red2
+    static let rating6: MyColor = .red3
+    static let rating5: MyColor = .neutral9
 }
 
 // MARK: - Primitive Color Tokens
