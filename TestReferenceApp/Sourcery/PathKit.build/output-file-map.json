@@ -1,0 +1,12 @@
+{
+  "": {
+    "dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/PathKit.build/PathKit.d",
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/PathKit.build/PathKit.o",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/PathKit.build/master.swiftdeps"
+  },
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/PathKit/Sources/PathKit.swift": {
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/PathKit.build/PathKit.swift.o",
+    "swiftmodule": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/PathKit.build/PathKit~partial.swiftmodule",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/PathKit.build/PathKit.swiftdeps"
+  }
+}

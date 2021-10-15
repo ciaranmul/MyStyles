@@ -1,0 +1,4 @@
+module CwlMachBadInstructionHandler {
+    umbrella header "/Users/aidanmalone/repos/Sourcery/.build/checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/include/CwlMachBadInstructionHandler.h"
+    export *
+}

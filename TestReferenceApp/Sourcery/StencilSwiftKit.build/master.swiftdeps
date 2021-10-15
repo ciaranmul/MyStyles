@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)"
+options: "fcc8c77a83aa25959c46abf22b6105ed89fa3b9fef8b0fde8e1468c02e57e378"
+build_start_time: [1634136546, 141160964]
+build_end_time: [1634136550, 640169143]
+inputs:
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/StencilSwiftKit/Sources/StencilSwiftKit/CallMacroNodes.swift": [1634136525, 45053243]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/StencilSwiftKit/Sources/StencilSwiftKit/Context.swift": [1634136525, 45212745]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/StencilSwiftKit/Sources/StencilSwiftKit/Environment.swift": [1634136525, 45356988]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/StencilSwiftKit/Sources/StencilSwiftKit/Filters+Numbers.swift": [1634136525, 45493841]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/StencilSwiftKit/Sources/StencilSwiftKit/Filters+Strings.swift": [1634136525, 45919656]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/StencilSwiftKit/Sources/StencilSwiftKit/Filters.swift": [1634136525, 46091794]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/StencilSwiftKit/Sources/StencilSwiftKit/MapNode.swift": [1634136525, 46256542]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/StencilSwiftKit/Sources/StencilSwiftKit/Parameters.swift": [1634136525, 46447277]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/StencilSwiftKit/Sources/StencilSwiftKit/SetNode.swift": [1634136525, 46585798]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/StencilSwiftKit/Sources/StencilSwiftKit/StencilSwiftTemplate.swift": [1634136525, 46720981]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/StencilSwiftKit/Sources/StencilSwiftKit/SwiftIdentifier.swift": [1634136525, 46929836]

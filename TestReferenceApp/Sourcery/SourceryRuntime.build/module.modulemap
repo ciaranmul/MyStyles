@@ -1,0 +1,4 @@
+module SourceryRuntime {
+    header "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryRuntime.build/SourceryRuntime-Swift.h"
+    requires objc
+}

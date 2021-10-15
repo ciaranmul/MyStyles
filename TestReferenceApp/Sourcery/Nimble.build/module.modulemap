@@ -1,0 +1,4 @@
+module Nimble {
+    header "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/Nimble.build/Nimble-Swift.h"
+    requires objc
+}

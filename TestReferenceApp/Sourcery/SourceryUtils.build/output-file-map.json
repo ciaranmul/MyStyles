@@ -1,0 +1,22 @@
+{
+  "": {
+    "dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryUtils.build/SourceryUtils.d",
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryUtils.build/SourceryUtils.o",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryUtils.build/master.swiftdeps"
+  },
+  "/Users/aidanmalone/repos/Sourcery/SourceryUtils/Sources/Path+Extensions.swift": {
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryUtils.build/Sources/Path+Extensions.swift.o",
+    "swiftmodule": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryUtils.build/Sources/Path+Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryUtils.build/Sources/Path+Extensions.swiftdeps"
+  },
+  "/Users/aidanmalone/repos/Sourcery/SourceryUtils/Sources/Sha.swift": {
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryUtils.build/Sources/Sha.swift.o",
+    "swiftmodule": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryUtils.build/Sources/Sha~partial.swiftmodule",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryUtils.build/Sources/Sha.swiftdeps"
+  },
+  "/Users/aidanmalone/repos/Sourcery/SourceryUtils/Sources/Version.swift": {
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryUtils.build/Sources/Version.swift.o",
+    "swiftmodule": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryUtils.build/Sources/Version~partial.swiftmodule",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryUtils.build/Sources/Version.swiftdeps"
+  }
+}

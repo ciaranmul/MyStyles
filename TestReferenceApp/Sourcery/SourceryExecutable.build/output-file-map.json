@@ -1,0 +1,12 @@
+{
+  "": {
+    "dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryExecutable.build/SourceryExecutable.d",
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryExecutable.build/SourceryExecutable.o",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryExecutable.build/master.swiftdeps"
+  },
+  "/Users/aidanmalone/repos/Sourcery/SourceryExecutable/main.swift": {
+    "object": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryExecutable.build/main.swift.o",
+    "swiftmodule": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryExecutable.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryExecutable.build/main.swiftdeps"
+  }
+}

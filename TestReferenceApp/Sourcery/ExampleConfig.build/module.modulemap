@@ -1,0 +1,4 @@
+module ExampleConfig {
+    header "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/ExampleConfig.build/ExampleConfig-Swift.h"
+    requires objc
+}

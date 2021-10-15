@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)"
+options: "fcc8c77a83aa25959c46abf22b6105ed89fa3b9fef8b0fde8e1468c02e57e378"
+build_start_time: [1634136537, 546645164]
+build_end_time: [1634136538, 645534038]
+inputs:
+  ? "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/SourceryJS.build/DerivedSources/resource_bundle_accessor.swift"
+  : [1634136529, 580955028]
+  "/Users/aidanmalone/repos/Sourcery/SourceryJS/Sources/EJSTemplate.swift": [1634136432, 769497632]

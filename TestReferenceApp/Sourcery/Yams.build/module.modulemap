@@ -1,0 +1,4 @@
+module Yams {
+    header "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/Yams.build/Yams-Swift.h"
+    requires objc
+}

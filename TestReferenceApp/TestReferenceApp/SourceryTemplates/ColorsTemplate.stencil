@@ -1,0 +1,14 @@
+
+import MyStyles
+import SwiftUI
+
+{% for type in types.based.MyColor %}
+
+// MARK: {{ type.name }}
+extension {{type.name}}: ShowcaseableColor {
+    static var showCaseView: some View {
+        Text("Whats my background Color")
+            .background(Color.blue)
+    }
+}
+{% endfor %}

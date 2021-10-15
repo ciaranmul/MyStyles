@@ -1,0 +1,4 @@
+module Quick {
+    header "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/Quick.build/Quick-Swift.h"
+    requires objc
+}

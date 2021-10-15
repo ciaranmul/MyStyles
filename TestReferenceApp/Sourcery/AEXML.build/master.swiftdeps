@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)"
+options: "fcc8c77a83aa25959c46abf22b6105ed89fa3b9fef8b0fde8e1468c02e57e378"
+build_start_time: [1634136530, 997867107]
+build_end_time: [1634136538, 473343849]
+inputs:
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/AEXML/Sources/AEXML/Document.swift": [1634136523, 421393871]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/AEXML/Sources/AEXML/Element.swift": [1634136523, 422001838]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/AEXML/Sources/AEXML/Error.swift": [1634136523, 422188282]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/AEXML/Sources/AEXML/Options.swift": [1634136523, 422351837]
+  "/Users/aidanmalone/repos/Sourcery/.build/checkouts/AEXML/Sources/AEXML/Parser.swift": [1634136523, 422505855]

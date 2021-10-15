@@ -1,0 +1,4 @@
+module TryCatch {
+    umbrella header "/Users/aidanmalone/repos/Sourcery/TryCatch/include/TryCatch.h"
+    export *
+}

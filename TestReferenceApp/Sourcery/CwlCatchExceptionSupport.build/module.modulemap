@@ -1,0 +1,4 @@
+module CwlCatchExceptionSupport {
+    umbrella "/Users/aidanmalone/repos/Sourcery/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include"
+    export *
+}

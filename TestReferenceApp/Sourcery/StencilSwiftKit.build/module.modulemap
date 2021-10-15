@@ -1,0 +1,4 @@
+module StencilSwiftKit {
+    header "/Users/aidanmalone/repos/Sourcery/.build/x86_64-apple-macosx/release/StencilSwiftKit.build/StencilSwiftKit-Swift.h"
+    requires objc
+}
