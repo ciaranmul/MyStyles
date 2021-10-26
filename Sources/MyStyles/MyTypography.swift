@@ -1,10 +1,55 @@
 import SwiftUI
 
-private enum CustomFontNames: String {
+enum CustomFont: String {
     case gtAmericaRegular = "GTAmerica-Regular"
     case jetBrainsMono = "JetBrainsMono-Medium"
     case easyNotes = "EasyNotes"
     case customerCopy = "CustomerCopy"
+
+    var ext: String {
+        return "ttf"
+    }
+}
+
+extension CustomFont {
+    var registered: Bool {
+        switch self {
+        case .gtAmericaRegular:
+            return CustomFont.gtAmericaRegularRegistered
+        case .jetBrainsMono:
+            return CustomFont.jetBrainsMonoRegistered
+        case .easyNotes:
+            return CustomFont.easyNotesRegistered
+        case .customerCopy:
+            return CustomFont.customerCopyRegistered
+        }
+    }
+
+    // MARK: - Font Register Functions -
+
+    /* These are static constants, which will be instantiated at first access and then never called again,
+       meaning even though we request this every time we request a font, only the first access will do the registration
+       and subsequent accesses will get the boolean value */
+
+    private static let gtAmericaRegularRegistered: Bool = {
+        FontsRegistrar.registerFont(.gtAmericaRegular)
+        return true
+    }()
+
+    private static let jetBrainsMonoRegistered: Bool = {
+        FontsRegistrar.registerFont(.jetBrainsMono)
+        return true
+    }()
+
+    private static let easyNotesRegistered: Bool = {
+        FontsRegistrar.registerFont(.easyNotes)
+        return true
+    }()
+
+    private static let customerCopyRegistered: Bool = {
+        FontsRegistrar.registerFont(.customerCopy)
+        return true
+    }()
 }
 
 public typealias MyFont = Font
@@ -72,7 +117,9 @@ extension MyFont {
 }
 
 private extension Font {
-    static func custom(_ name: CustomFontNames, size: CGFloat) -> Font {
-        return Font.custom(name.rawValue, size: size)
+    static func custom(_ font: CustomFont, size: CGFloat) -> Font {
+        // Registering the font on first use
+        _ = font.registered
+        return Font.custom(font.rawValue, size: size)
     }
 }
